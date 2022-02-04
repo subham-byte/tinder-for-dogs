@@ -1,0 +1,163 @@
+body{
+    font-family: 'Montserrat-Regular';
+}
+#title{
+    background-color: #ff4c68;
+    color: #ffffff;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navbar design */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-family: 'Montserrat-light';
+}
+
+/* download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+/* features */
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.easy{
+    color: #ef8172;
+    /* font-size: 3rem; */
+    line-height: 3.5rem;
+    margin-top: 25%;
+    padding: 4.5%;
+}
+.easy:hover{
+    color: #ff4c68;
+}
+.awesome{
+    padding: 0;
+}
+.awesome h3{
+    font-size: 1.5rem;
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+.awesome p{
+    color: #8f8f8f;
+    font-size: 1.1rem;
+    width: 80%;
+    margin: auto;
+}
+
+/* Testimonials */
+#testimonials{
+    text-align: center;
+    background-color:  #ef8172;
+    color: #ffffff;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+#press{
+    background-color:  #ef8172;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing Pixel */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.pricing-column p{
+    color: #8f8f8f;
+    font-size: 1.1rem;
+}
+
+/* z-index will only work when we define position(not static) */
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-img {
+      position: static;
+      transform: rotate(0);
+      width: 60%;
+    }
+  }
+
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+.love{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+/* footer */
+#footer{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 8% 5%;
+}
+#footer a{
+    padding: 5px;
+    color: black;
+}
+#footer p{
+    color: #8f8f8f;
+    margin-top: 7px;
+}
